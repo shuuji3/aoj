@@ -1,0 +1,25 @@
+> oj test -c "python3 main.py"
+[INFO] online-judge-tools 11.1.2 (+ online-judge-api-client 10.8.0)
+[INFO] 2 cases found
+
+[INFO] sample-1
+[INFO] time: 0.041757 sec
+[SUCCESS] AC
+
+[INFO] sample-2
+[INFO] time: 0.045862 sec
+[FAILURE] WA
+input:
+1 1000000000000000000
+1
+
+output:
+1000000000000000000
+
+expected:
+999999999999999999
+
+
+[INFO] slowest: 0.045862 sec  (for sample-2)
+[INFO] max memory: 9.332000 MB  (for sample-1)
+[FAILURE] test failed: 1 AC / 2 cases
